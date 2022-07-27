@@ -18,7 +18,7 @@ def gameFunc(): #function if you want to call other python files inside
                 tie = tie + 1
             elif (userRPS == 'rock' or userRPS == 'Rock') and rps == 'paper':
                 print("You Lost! I chose Paper!")
-                loss = tie + 1
+                loss = loss + 1
             elif (userRPS == 'rock' or userRPS == 'Rock') and rps == 'scissors':
                 print("You Won! I chose Scissors!")
                 win = win + 1
@@ -32,12 +32,12 @@ def gameFunc(): #function if you want to call other python files inside
                 tie = tie + 1
             elif (userRPS == 'paper' or userRPS == 'Paper') and rps == 'scissors':
                 print("You Lost! I chose Scissors!")
-                loss = tie + 1
+                loss = loss + 1
 
         elif userRPS == 'scissors' or userRPS == 'Scissors': #If the user chooses scissors, these are the outcomes
             if (userRPS == 'scissors' or userRPS == 'Scissors') and rps == 'rock':
                 print("You Lost! I chose Rock!")
-                loss = tie + 1
+                loss = loss + 1
             elif (userRPS == 'scissors' or userRPS == 'Scissors') and rps == 'paper':
                 print("You Won! I chose Paper!")
                 win = win + 1
